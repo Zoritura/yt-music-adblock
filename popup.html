@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>YT Music AdBlock</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <div class="card">
+    <div class="header">
+      <span class="dot" id="statusDot"></span>
+      <h1>YT Music AdBlock</h1>
+    </div>
+
+    <div class="row">
+      <div>
+        <div class="label">Blocking</div>
+        <div class="sub" id="status">Active</div>
+      </div>
+      <label class="switch">
+        <input type="checkbox" id="toggle" checked />
+        <span class="slider"></span>
+      </label>
+    </div>
+
+    <div class="stats">
+      <div class="stat-number" id="count">0</div>
+      <div class="stat-label">ads blocked this session</div>
+    </div>
+
+    <button id="reset">Reset counter</button>
+
+    <p class="footer">Runs only on music.youtube.com</p>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
