@@ -32,7 +32,14 @@ YouTube Music still loads ad metadata and UI elements even when playback is othe
 - `popup.js` powers the extension toggle in the popup
 - `rules.json` contains the declarative network rules for extra filtering
 
+## Privacy
+
+This extension runs locally in your browser. It does not collect or send any data.
+
 ## Notes
 
 This is a small extension built for personal use, but it is organized well enough to modify or expand if you want to tune the ad-detection rules for your browser or region.
 
+## License
+
+MIT — see [LICENSE](LICENSE).
