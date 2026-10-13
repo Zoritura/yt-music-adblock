@@ -14,8 +14,6 @@
     'adBreakHeartbeatParams',
     'adBreakServiceUrl',
     'playerLegacyDesktopWatchAdsRenderer',
-    'adSignalsInfo',
-    'enabledEngageTypes',
     'adTargeting'
   ]);
 
@@ -48,8 +46,7 @@
     '/youtubei/v1/next',
     '/youtubei/v1/browse',
     '/youtubei/v1/music/',
-    '/youtubei/v1/reel',
-    '/youtubei/v1/att/'
+    '/youtubei/v1/reel'
   ];
 
   function isTarget(url) {
